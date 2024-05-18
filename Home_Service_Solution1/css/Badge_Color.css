@@ -1,0 +1,82 @@
+.badge {
+    display: inline-block;
+    padding: 0.4em 0.6em; /* Increased padding for a larger badge */
+    font-size: 85%; /* Slightly larger font size */
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.3rem; /* Slightly increased border radius */
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+/* Example styling for a badge with a primary color background */
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+/* Example styling for a badge with a danger color background */
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+/* Add more classes for different badge colors as needed */
+/* Badge with success color */
+.badge-success {
+    color: #fff;
+    background-color: #28a745;
+}
+
+/* Badge with warning color */
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+/*  CUSTOM  BADGE  COLOR  */
+
+/* Badge with accept color */
+.badge-accept {
+    color: #fff;
+    background-color: #28a745;
+}
+
+/* Badge with reject color */
+.badge-reject {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+/* Badge with cancelled color */
+.badge-cancelled {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+/* Badge with pending color */
+.badge-pending {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+/* Badge with completed color */
+.badge-completed {
+    color: #fff;
+    background-color: #17a2b8;
+}
+
+/* Badge with booked color */
+.badge-booked {
+    color: #fff;
+    background-color: #6610f2;
+}
+
+/* Badge with not-booked color */
+.badge-not-booked {
+    color: #212529;
+    background-color: #f8f9fa;
+}

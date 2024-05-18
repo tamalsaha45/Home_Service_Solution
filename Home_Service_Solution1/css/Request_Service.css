@@ -1,0 +1,60 @@
+/* Styling for the select dropdown */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    appearance: none; /* Removes default styles on Firefox */
+    -webkit-appearance: none; /* Removes default styles on Chrome and Safari */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Adds custom arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Positions the arrow icon */
+    background-size: 20px;
+}
+
+/* Styling for the form container */
+.service-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 56px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for form labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Styling for form inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Styling for the login button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for the login button */
+.login-btn:hover {
+    background-color: #0056b3;
+}
